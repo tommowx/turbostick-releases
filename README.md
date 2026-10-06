@@ -21,16 +21,16 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## La nuova cabina · 0.11.0
+## Gioco leggero e cabina · 0.12.1
 
 | Cosa trovi | A cosa serve |
 | --- | --- |
 | **Una schermata semplice** | Stato del controllo e dati CPU, memoria e GPU, se disponibili. |
 | **Tiko** | Mascotte leggera, disegnata localmente, che apre il tecnico offline. |
-| **Controllo adattivo** | Osserva il carico e applica le regole previste ai processi idonei. |
-| **Cosa sto facendo** | Mostra gli interventi realmente registrati e i dettagli del ripristino. |
+| **Controllo adattivo** | Osserva il carico; riduce le letture durante il gioco e ripristina gli interventi quando il controllo supera il budget. |
+| **Cosa sto facendo** | Mostra gli interventi registrati, il ripristino e le misure con/senza interventi, senza dedurre guadagni FPS. |
 | **Parla con Tiko** | Descrivi il problema: analisi locale e controlli guidati, senza modifiche automatiche. |
-| **Libera spazio** | Analisi e selezione dei file, con archivio recuperabile. Nessuna pulizia automatica del Pilota. |
+| **Libera spazio** | Analisi e selezione dei file, cache Windows/NVIDIA/AMD e archivio recuperabile. Pulizia bloccata con gioco riconosciuto. |
 
 Tiko usa il tecnico a regole locale: non è un modello linguistico e non richiede download di modelli o abbonamenti AI.
 
@@ -66,7 +66,7 @@ Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contatt
 <details>
 <summary><strong>Verifiche e limiti</strong></summary>
 
-La 0.11.0 ha superato **609 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
+La 0.12.1 ha superato **644 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
 
 Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
 
