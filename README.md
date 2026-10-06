@@ -21,7 +21,7 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## Prestazioni e aggiornamenti · 0.14.0
+## Prestazioni e aggiornamenti · 0.14.1
 
 | Cosa trovi | A cosa serve |
 | --- | --- |
@@ -40,9 +40,13 @@ Tiko usa il tecnico a regole locale: non è un modello linguistico e non richied
 - **Ferma e ripristina:** mette in pausa e ripristina gli interventi.
 - **Esci:** ripristina e chiude normalmente.
 
+## Pulizia passiva vecchi download
+
+A PC inattivo TurboStick sposta nel Cestino i propri ZIP ed EXE di versioni precedenti presenti in Download, dopo verifica di firma e hash. Protegge la copia in uso e conserva impostazioni, quarantena e altri file nelle cartelle. I file bloccati o non verificabili restano dove sono. Non richiede una pulizia manuale.
+
 ## Aggiornamenti automatici
 
-La 0.14.0 corregge il caso in cui il nuovo EXE riapriva la copia vecchia: riconosce separatamente le versioni e individua prima quella effettivamente in esecuzione. Il collegamento **Scarica TurboStick Portable** punta sempre alla release Latest; i tag precedenti sono archivio storico.
+La 0.14.1 corregge il caso in cui il nuovo EXE riapriva la copia vecchia: riconosce separatamente le versioni e individua prima quella effettivamente in esecuzione. Il collegamento **Scarica TurboStick Portable** punta sempre alla release Latest; i tag precedenti sono archivio storico.
 
 
 In **Altri strumenti → Aggiornamenti** puoi abilitare il controllo automatico. Non serve un account GitHub.
@@ -69,11 +73,12 @@ Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contatt
 <details>
 <summary><strong>Verifiche e limiti</strong></summary>
 
-La 0.14.0 ha superato **703 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
+La 0.14.1 ha superato **703 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
 
 Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
 
 La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode commerciale. Valuta gli eventuali avvisi Windows senza disattivare le protezioni. Questo repository distribuisce i pacchetti dell'app: gli archivi Source code di GitHub non contengono i sorgenti di TurboStick.
 
 </details>
+
 
