@@ -21,7 +21,7 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## Prestazioni e aggiornamenti · 0.14.1
+## Misure e aggiornamenti · 0.15.0
 
 | Cosa trovi | A cosa serve |
 | --- | --- |
@@ -39,6 +39,10 @@ Tiko usa il tecnico a regole locale: non è un modello linguistico e non richied
 - **X:** nasconde la finestra e lascia l'app operativa vicino all'orologio.
 - **Ferma e ripristina:** mette in pausa e ripristina gli interventi.
 - **Esci:** ripristina e chiude normalmente.
+
+## Misure di fluidità · 0.15.0
+
+Il risultato finale resta aggiornato quando la raccolta finisce. Stop ripristina gli interventi e attende conferma della chiusura della propria sessione; anche Esci attende senza forzare processi. La misura live controlla prima i permessi necessari e spiega gli errori; i CSV restano importabili senza privilegi aggiuntivi. Test reali di fine temporizzata e arresto ETW superati. Nessun guadagno FPS è stato misurato.
 
 ## Pulizia passiva vecchi download
 
@@ -73,12 +77,13 @@ Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contatt
 <details>
 <summary><strong>Verifiche e limiti</strong></summary>
 
-La 0.14.1 ha superato **703 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
+La 0.15.0 ha superato **709 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
 
 Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
 
 La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode commerciale. Valuta gli eventuali avvisi Windows senza disattivare le protezioni. Questo repository distribuisce i pacchetti dell'app: gli archivi Source code di GitHub non contengono i sorgenti di TurboStick.
 
 </details>
+
 
 
