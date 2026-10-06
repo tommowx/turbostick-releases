@@ -21,7 +21,9 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## Misure e aggiornamenti · 0.15.0
+## Aggiornamento affidabile · 0.15.1
+
+Corretto il ritorno involontario alla vecchia versione dopo un aggiornamento: la conferma di avvio attende misure valide e viene ripetuta. Firma, backup e ripristino restano attivi.
 
 | Cosa trovi | A cosa serve |
 | --- | --- |
@@ -40,7 +42,7 @@ Tiko usa il tecnico a regole locale: non è un modello linguistico e non richied
 - **Ferma e ripristina:** mette in pausa e ripristina gli interventi.
 - **Esci:** ripristina e chiude normalmente.
 
-## Misure di fluidità · 0.15.0
+## Misure di fluidità · 0.15.1
 
 Il risultato finale resta aggiornato quando la raccolta finisce. Stop ripristina gli interventi e attende conferma della chiusura della propria sessione; anche Esci attende senza forzare processi. La misura live controlla prima i permessi necessari e spiega gli errori; i CSV restano importabili senza privilegi aggiuntivi. Test reali di fine temporizzata e arresto ETW superati. Nessun guadagno FPS è stato misurato.
 
@@ -77,7 +79,7 @@ Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contatt
 <details>
 <summary><strong>Verifiche e limiti</strong></summary>
 
-La 0.15.0 ha superato **709 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
+La 0.15.1 ha superato **709 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Aggiunte due prove dedicate: conferma con avvio reale e verifica dei blocchi di sicurezza/ritenti. Il report completo è allegato alla release.
 
 Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
 
