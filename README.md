@@ -1,27 +1,75 @@
-# TurboStick 0.9.5
+# TurboStick
+### Un alleato dentro il tuo PC.
 
-## Avvio
+**La tua cabina per monitoraggio, prestazioni e diagnosi locale su Windows.**
+Portatile, utilizzabile offline e con interventi ripristinabili.
 
-Windows con .NET Framework 4.8. Estrai tutta la cartella e apri TurboStick.exe. Tieni la cartella su un disco o una chiavetta scrivibile. Non avviare direttamente dentro lo ZIP.
-Start attiva il Pilota; Stop ripristina le modifiche. La X lascia il programma vicino all'orologio. Esci dal menu dell'icona ripristina e chiude. Il Tecnico offline e la pulizia file sono disponibili dalla Home.
+[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
+[![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
-## Protezione delle app
+## ↓ Scarica l'app
 
-Nessuna chiusura automatica delle app. L'eventuale comando manuale Chiudi app richiede autorizzazione e conferma. I browser riconosciuti (Chrome, Edge, Firefox, Brave, Opera, Vivaldi e altri) sono esclusi dalle modifiche automatiche di priorità CPU e memoria, anche in background. La gestione della priorità memoria è disattivata per impostazione predefinita; rimane opzionale nelle preferenze. Il bilanciamento CPU degli altri processi idonei resta disponibile sotto carico sostenuto. Non è stato dimostrato che TurboStick abbia causato la chiusura segnalata di Chrome.
+### [Scarica TurboStick Portable per Windows](https://github.com/tommowx/turbostick-releases/releases/latest/download/TurboStick-Portable.zip)
 
-## Aggiornamenti
+[Novità e report della versione](https://github.com/tommowx/turbostick-releases/releases/latest) · [Tutte le versioni](https://github.com/tommowx/turbostick-releases/releases)
 
-Al primo avvio scegli se attivare gli aggiornamenti automatici. Cambia scelta in Altri strumenti > Aggiornamenti. Non serve un account GitHub. Una volta al giorno, quando il desktop o TurboStick sono in primo piano e il PC è inattivo da due minuti, l'app cerca una nuova versione. Giochi riconosciuti, profili manuali e operazioni in corso rimandano l'aggiornamento. Puoi anche premere Controlla ora e Installa ora.
+**Scegli `TurboStick-Portable.zip`.** Il pulsante Code → Download ZIP e i file Source code contengono la pagina del repository, non l'app Windows.
 
-Solo pacchetti con firma RSA e hash verificati sono accettati. Prima della sostituzione vengono ripristinate le modifiche al PC. La nuova versione riparte in background e mantiene la pausa se era attiva. Impostazioni e quarantena rimangono nella cartella data. Se l'avvio fallisce, l'updater tenta di tornare alla versione precedente; non forza la chiusura di processi bloccati. In quest'ultimo caso conserva il backup e mostra un errore. Non eliminare .updates se segnala un recupero incompleto.
+1. Scarica il pacchetto ed estrai **tutta la cartella**.
+2. Apri **TurboStick.exe** da un disco o una chiavetta scrivibile.
+3. Usa **Attiva TurboStick**; **Ferma e ripristina** annulla gli interventi registrati.
 
-Offline il programma continua a funzionare. Gli aggiornamenti usano GitHub tramite HTTPS: GitHub riceve le normali informazioni di connessione, incluso l'IP. Non vengono inviati hardware, elenco processi o file personali. Gli aggiornamenti scaricano soltanto l'eseguibile; un futuro cambio di runtime/configurazione richiederà una migrazione dedicata.
+Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-La firma dei pacchetti è verificata dall'app: non è una firma Authenticode commerciale dell'eseguibile. Eventuali avvisi Windows vanno valutati senza disattivare le protezioni.
+## La nuova cabina · 0.11.0
 
-## Verifiche
+| Cosa trovi | A cosa serve |
+| --- | --- |
+| **Una schermata semplice** | Stato del controllo e dati CPU, memoria e GPU, se disponibili. |
+| **Tiko** | Mascotte leggera, disegnata localmente, che apre il tecnico offline. |
+| **Controllo adattivo** | Osserva il carico e applica le regole previste ai processi idonei. |
+| **Cosa sto facendo** | Mostra gli interventi realmente registrati e i dettagli del ripristino. |
+| **Parla con Tiko** | Descrivi il problema: analisi locale e controlli guidati, senza modifiche automatiche. |
+| **Libera spazio** | Analisi e selezione dei file, con archivio recuperabile. Nessuna pulizia automatica del Pilota. |
 
-469 controlli superati, test di interfaccia Start/Stop e X/tray, prova Windows di sostituzione dell'eseguibile e recupero con un programma di prova che fallisce all'avvio. Nessun miglioramento FPS o RAM promesso o misurato da questi test.
+Tiko usa il tecnico a regole locale: non è un modello linguistico e non richiede download di modelli o abbonamenti AI.
 
-Release ufficiali: https://github.com/tommowx/turbostick-releases/releases
+## Rimane vicino a te, anche in background
 
+- **X:** nasconde la finestra e lascia l'app operativa vicino all'orologio.
+- **Ferma e ripristina:** mette in pausa e ripristina gli interventi.
+- **Esci:** ripristina e chiude normalmente.
+
+## Aggiornamenti automatici
+
+In **Altri strumenti → Aggiornamenti** puoi abilitare il controllo automatico. Non serve un account GitHub.
+
+Con connessione disponibile, l'app controlla periodicamente e installa a PC inattivo. Giochi riconosciuti e operazioni in corso rimandano l'installazione. Puoi anche usare **Controlla ora** e **Installa ora**.
+
+Il pacchetto è accettato solo dopo verifica della firma RSA, della dimensione e dell'hash. Prima della sostituzione vengono ripristinati gli interventi; dati, quarantena e impostazioni vengono conservati. Se il nuovo avvio fallisce, l'updater tenta il ritorno alla copia precedente senza forzare la chiusura di applicazioni.
+
+<details>
+<summary><strong>Hai una vecchia versione o un errore SSL/TLS?</strong></summary>
+
+Scarica il ZIP Portable completo, estrailo e apri il nuovo TurboStick.exe. Il manifesto firmato incluso consente l'aggiornamento locale della vecchia copia riconosciuta. La sostituzione avviene dopo la chiusura normale e la verifica dell'avvio. Il backup viene rimosso dopo un avvio riuscito; altri download e altre copie non vengono cancellati indiscriminatamente.
+
+Se il programma segnala un recupero incompleto, conserva la cartella `.updates` e il backup.
+
+</details>
+
+## Protezione delle app e privacy
+
+Nessuna chiusura automatica delle app. Il comando manuale **Chiudi app** richiede autorizzazione e conferma. I browser riconosciuti sono esclusi dalle modifiche automatiche di priorità CPU e memoria. La priorità memoria resta opzionale e disattivata per impostazione predefinita.
+
+Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contattano GitHub via HTTPS, che riceve le normali informazioni di connessione, incluso l'IP; hardware, elenco processi e file personali non vengono inviati.
+
+<details>
+<summary><strong>Verifiche e limiti</strong></summary>
+
+La 0.11.0 ha superato **609 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Il report completo è allegato alla release.
+
+Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
+
+La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode commerciale. Valuta gli eventuali avvisi Windows senza disattivare le protezioni. Questo repository distribuisce i pacchetti dell'app: gli archivi Source code di GitHub non contengono i sorgenti di TurboStick.
+
+</details>
