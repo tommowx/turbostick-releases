@@ -17,13 +17,15 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 1. Scarica il pacchetto ed estrai **tutta la cartella**.
 2. Apri **TurboStick.exe** da un disco o una chiavetta scrivibile.
-3. Usa **Attiva TurboStick**; **Ferma e ripristina** annulla gli interventi registrati.
+3. Il pilota parte secondo le preferenze e i controlli di recupero. Usa **Ferma** per mettere in pausa e **Annulla modifiche** per ripristinare.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## Aggiornamento affidabile · 0.15.1
+## Tweaks e interfaccia · 0.16.0
 
-Corretto il ritorno involontario alla vecchia versione dopo un aggiornamento: la conferma di avvio attende misure valide e viene ripetuta. Firma, backup e ripristino restano attivi.
+Nove opzioni con ripristino, schede e interruttori moderni, campi arrotondati e un comando chiaro per annullare le modifiche in Cabina. Le opzioni avanzate partono disattivate. Nessuna chiusura automatica delle app.
+
+**Report tecnici facoltativi:** dopo un consenso iniziale, invio automatico a PC inattivo e tentativo allo spegnimento con coda offline. Archivio privato Cloudflare, 30 giorni; solo aggregati e conteggi, senza nomi, file, processi, log, chat o fotogrammi. Anteprima e disattivazione in Altri strumenti → Aiutaci a migliorare. L'app funziona offline senza report.
 
 | Cosa trovi | A cosa serve |
 | --- | --- |
@@ -74,12 +76,12 @@ Se il programma segnala un recupero incompleto, conserva la cartella `.updates` 
 
 Nessuna chiusura automatica delle app. Il comando manuale **Chiudi app** richiede autorizzazione e conferma. I browser riconosciuti sono esclusi dalle modifiche automatiche di priorità CPU e memoria. La priorità memoria resta opzionale e disattivata per impostazione predefinita.
 
-Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contattano GitHub via HTTPS, che riceve le normali informazioni di connessione, incluso l'IP; hardware, elenco processi e file personali non vengono inviati.
+Monitoraggio, tecnico e pulizia lavorano sul computer. Gli aggiornamenti contattano GitHub via HTTPS, che riceve le normali informazioni di connessione, incluso l'IP; elenco processi e file personali non vengono inviati. I report tecnici opzionali inviano solo i dati aggregati descritti sopra dopo consenso.
 
 <details>
 <summary><strong>Verifiche e limiti</strong></summary>
 
-La 0.15.1 ha superato **709 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Aggiunte due prove dedicate: conferma con avvio reale e verifica dei blocchi di sicurezza/ritenti. Il report completo è allegato alla release.
+La 0.16.0 ha superato **769 controlli**, una prova di avvio reale isolato, la verifica X/background/riapertura/ripristino e **11 scenari di aggiornamento firmato e recupero**. Verificati anche sei test del servizio report, trasporto reale .NET/TLS, accesso privato, prove guidate e conservazione delle registrazioni. Il report completo è allegato alla release.
 
 Queste prove non misurano guadagni FPS e non coprono ogni combinazione di gioco e hardware. Le metriche GPU possono essere N/D. Nessuna promessa di memoria liberata o FPS aggiuntivi.
 
@@ -87,5 +89,9 @@ La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode 
 
 </details>
 
+
+
+
+- Controlla ora cerca subito il manifesto firmato anche con gioco/operazioni in corso, senza scaricare l'EXE. Download e installazione restano separati e rinviati a un momento sicuro. Verifica reale del manifesto GitHub durante gaming/pulizia simulati PASS; trasferimenti automatici ancora annullati durante gaming.
 
 
