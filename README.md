@@ -7,6 +7,12 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Bilanciamento CPU adattivo · 0.17.2
+
+Soglie adattate ai core disponibili, interventi quotidiani limitati nel tempo e ripristino dell'app in uso. Corretto lo stato delle sessioni automatiche e il conteggio del piano energetico. **1.247 controlli superati**, prove native ripetute e confronto sintetico alternato su un core: redistribuzione del tempo CPU verificata; nessun guadagno FPS in partita dichiarato.
+
+[Report della 0.17.2](https://github.com/tommowx/turbostick-releases/releases/tag/v0.17.2) · [Sorgenti della 0.17.2](https://github.com/tommowx/turbostick-releases/releases/download/v0.17.2/TurboStick-Sources-0.17.2.zip)
+
 ## Interfaccia più chiara · 0.17.1
 
 Home con una sola azione principale, Tiko con un solo menu di opzioni e Libera spazio con comandi mostrati quando servono. I dodici controlli Windows sono visibili nei Tweaks, con spiegazioni semplici e un solo pulsante per aprire la scelta. Le sei opzioni avanzate restano richiudibili.
@@ -103,5 +109,6 @@ La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode 
 
 
 - Controlla ora cerca subito il manifesto firmato anche con gioco/operazioni in corso, senza scaricare l'EXE. Download e installazione restano separati e rinviati a un momento sicuro. Verifica reale del manifesto GitHub durante gaming/pulizia simulati PASS; trasferimenti automatici ancora annullati durante gaming.
+
 
 
