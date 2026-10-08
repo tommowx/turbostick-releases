@@ -7,6 +7,12 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Interfaccia più chiara · 0.17.1
+
+Home con una sola azione principale, Tiko con un solo menu di opzioni e Libera spazio con comandi mostrati quando servono. I dodici controlli Windows sono visibili nei Tweaks, con spiegazioni semplici e un solo pulsante per aprire la scelta. Le sei opzioni avanzate restano richiudibili.
+
+[Report della 0.17.1](https://github.com/tommowx/turbostick-releases/releases/tag/v0.17.1) · [Sorgenti della 0.17.1](https://github.com/tommowx/turbostick-releases/releases/download/v0.17.1/TurboStick-Sources-0.17.1.zip)
+
 ## ↓ Scarica l'app
 
 ### [Scarica TurboStick Portable per Windows](https://github.com/tommowx/turbostick-releases/releases/latest/download/TurboStick-Portable.zip)
