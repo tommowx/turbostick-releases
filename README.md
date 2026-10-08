@@ -17,13 +17,17 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 
 1. Scarica il pacchetto ed estrai **tutta la cartella**.
 2. Apri **TurboStick.exe** da un disco o una chiavetta scrivibile.
-3. Il pilota parte secondo le preferenze e i controlli di recupero. Usa **Ferma** per mettere in pausa e **Annulla modifiche** per ripristinare.
+3. Il pilota parte secondo le preferenze e i controlli di recupero. Usa **Stop** per fermare il controllo e ripristinare gli interventi.
 
 Windows 10/11 con **.NET Framework 4.8**. Non avviare dentro lo ZIP.
 
-## Tweaks e interfaccia · 0.16.0
+## Gaming, prove e ripristino · 0.17.0
 
-Nove opzioni con ripristino, schede e interruttori moderni, campi arrotondati e un comando chiaro per annullare le modifiche in Cabina. Le opzioni avanzate partono disattivate. Nessuna chiusura automatica delle app.
+Dodici controlli Windows facoltativi con ripristino, prove guidate della fluidità e memoria locale dei peggioramenti. Confronto DNS senza modifiche automatiche e prova QoS temporanea BETA con ripristino. Nessuna chiusura automatica delle app personali.
+
+**1.209 controlli superati**, integrazione updater e prove native DNS/QoS. Nessun guadagno FPS dimostrato in partita: risultati e limiti sono nel [report completo](https://github.com/tommowx/turbostick-releases/releases/tag/v0.17.0).
+
+[Sorgenti ricompilabili della 0.17.0](https://github.com/tommowx/turbostick-releases/releases/download/v0.17.0/TurboStick-Sources-0.17.0.zip).
 
 **Report tecnici facoltativi:** dopo un consenso iniziale, invio automatico a PC inattivo e tentativo allo spegnimento con coda offline. Archivio privato Cloudflare, 30 giorni; solo aggregati e conteggi, senza nomi, file, processi, log, chat o fotogrammi. Anteprima e disattivazione in Altri strumenti → Aiutaci a migliorare. L'app funziona offline senza report.
 
@@ -41,7 +45,7 @@ Tiko usa il tecnico a regole locale: non è un modello linguistico e non richied
 ## Rimane vicino a te, anche in background
 
 - **X:** nasconde la finestra e lascia l'app operativa vicino all'orologio.
-- **Ferma e ripristina:** mette in pausa e ripristina gli interventi.
+- **Stop:** mette in pausa e ripristina gli interventi.
 - **Esci:** ripristina e chiude normalmente.
 
 ## Misure di fluidità · 0.15.1
