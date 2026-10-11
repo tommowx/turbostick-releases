@@ -7,6 +7,12 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Misure gaming affidabili · 0.17.3
+
+Peggior 1%, P95/P99 e tempo degli scatti; Tiko usa misure fresche senza scansioni aggiuntive. Contenimento gaming limitato nel tempo. CSV CPU/GPU con copertura esplicita e confronti ripetuti con variabilità e condizioni registrate. **1.337 controlli superati**, prove native ripetute e sorgenti ricompilati. Nessun incremento FPS in partita dimostrato; il piano completo 0.18 resta in sviluppo.
+
+[Report 0.17.3](https://github.com/tommowx/turbostick-releases/releases/tag/v0.17.3) · [Sorgenti 0.17.3](https://github.com/tommowx/turbostick-releases/releases/download/v0.17.3/TurboStick-Sources-0.17.3.zip)
+
 ## Bilanciamento CPU adattivo · 0.17.2
 
 Soglie adattate ai core disponibili, interventi quotidiani limitati nel tempo e ripristino dell'app in uso. Corretto lo stato delle sessioni automatiche e il conteggio del piano energetico. **1.247 controlli superati**, prove native ripetute e confronto sintetico alternato su un core: redistribuzione del tempo CPU verificata; nessun guadagno FPS in partita dichiarato.
