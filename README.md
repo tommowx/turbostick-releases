@@ -7,6 +7,14 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Gaming più leggero · 0.18.0
+
+Scansione dei processi alleggerita, ripristino completo delle misure gaming, driver GPU nel contesto delle prove e protezioni aggiuntive per cattura e overlay. Corretto l'aggiornamento scaricato quando la conferma del worker è temporaneamente occupata. **1.356 controlli superati**, sorgenti ricompilati e avvio reale verificato.
+
+Sul PC di sviluppo, CPU propria media nelle osservazioni nascoste: **3,53% → 0,58%**. Otto scansioni: circa **21–23 → 1,52 secondi CPU**. Sono costi di TurboStick, non guadagni FPS; condizioni e limiti nel report. Il piano gaming esteso resta aperto.
+
+[Report 0.18.0](https://github.com/tommowx/turbostick-releases/releases/tag/v0.18.0) · [Sorgenti 0.18.0](https://github.com/tommowx/turbostick-releases/releases/download/v0.18.0/TurboStick-Sources-0.18.0.zip)
+
 ## Misure gaming affidabili · 0.17.3
 
 Peggior 1%, P95/P99 e tempo degli scatti; Tiko usa misure fresche senza scansioni aggiuntive. Contenimento gaming limitato nel tempo. CSV CPU/GPU con copertura esplicita e confronti ripetuti con variabilità e condizioni registrate. **1.337 controlli superati**, prove native ripetute e sorgenti ricompilati. Nessun incremento FPS in partita dimostrato; il piano completo 0.18 resta in sviluppo.
