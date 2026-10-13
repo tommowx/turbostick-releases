@@ -7,6 +7,14 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Avvio leggero e Home gaming · 0.18.1
+
+Nelle prime fasi di boot/accesso TurboStick riduce le proprie scansioni e rinvia le attività automatiche non urgenti. Nomi più chiari per le app all'avvio e ultimo tempo Windows quando leggibile. La Home usa le misure recenti dei fotogrammi già raccolti, con controlli di identità e freschezza condivisi con Tiko.
+
+**1.379 controlli superati**, sorgenti ricompilati e avvio reale verificato. Nessun tempo risparmiato all'accensione o incremento FPS garantito: mancano riavvii comparativi e prove durante partita. Non vengono disattivati servizi, sicurezza o app personali automaticamente.
+
+[Report 0.18.1](https://github.com/tommowx/turbostick-releases/releases/tag/v0.18.1) · [Sorgenti 0.18.1](https://github.com/tommowx/turbostick-releases/releases/download/v0.18.1/TurboStick-Sources-0.18.1.zip)
+
 ## Gaming più leggero · 0.18.0
 
 Scansione dei processi alleggerita, ripristino completo delle misure gaming, driver GPU nel contesto delle prove e protezioni aggiuntive per cattura e overlay. Corretto l'aggiornamento scaricato quando la conferma del worker è temporaneamente occupata. **1.356 controlli superati**, sorgenti ricompilati e avvio reale verificato.
