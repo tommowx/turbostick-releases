@@ -7,6 +7,18 @@ Portatile, utilizzabile offline e con interventi ripristinabili.
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4)](https://github.com/tommowx/turbostick-releases/releases/latest)
 [![Ultima versione](https://img.shields.io/github/v/release/tommowx/turbostick-releases?label=Versione&color=11998e)](https://github.com/tommowx/turbostick-releases/releases/latest)
 
+## Mac Beta · 0.19.0
+
+La prima beta per Mac è disponibile per la prova su **macOS 15 o successivo**, con runtime incluso.
+
+**Scarica l'app:** [Apple Silicon — M1/M2/M3/M4 e successivi](https://github.com/tommowx/turbostick-releases/releases/download/v0.19.0/TurboStick-0.19.0-osx-arm64.zip) · [Mac Intel](https://github.com/tommowx/turbostick-releases/releases/download/v0.19.0/TurboStick-0.19.0-osx-x64.zip)
+
+Estrai lo ZIP e sposta TurboStick.app in una cartella scrivibile. La beta include CPU/RAM, scansione delle app, diagnostica rete, Tiko offline e **il proprio canale di aggiornamento automatico**: controllo all'apertura e giornaliero, pacchetti firmati, installazione alla chiusura con conferma di apertura della nuova app. Dalla Home puoi salvare il report locale per la prova.
+
+**È una beta di diagnostica:** il port delle ottimizzazioni gaming complete è ancora in sviluppo; UI/API Mach e installazione degli aggiornamenti devono essere verificati sul Mac. Firma Apple Developer ID e notarizzazione non sono presenti, quindi macOS può chiedere l'autorizzazione al primo avvio. Il report Mac non viene inviato automaticamente al servizio privato Windows.
+
+[Release e modifiche](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.0) · [Istruzioni Mac](mac-beta/README.md) · [Report di verifica](mac-beta/REPORT.md) · [Sorgenti completi Mac Beta](https://github.com/tommowx/turbostick-releases/releases/download/v0.19.0/TurboStick-0.19.0-MacBeta-source.zip)
+
 ## Avvio leggero e Home gaming · 0.18.1
 
 Nelle prime fasi di boot/accesso TurboStick riduce le proprie scansioni e rinvia le attività automatiche non urgenti. Nomi più chiari per le app all'avvio e ultimo tempo Windows quando leggibile. La Home usa le misure recenti dei fotogrammi già raccolti, con controlli di identità e freschezza condivisi con Tiko.

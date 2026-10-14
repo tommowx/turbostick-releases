@@ -1,0 +1,12 @@
+{
+  "Schema": 1,
+  "Version": "0.19.0",
+  "Rid": "osx-arm64",
+  "AssetName": "TurboStick-0.19.0-osx-arm64.zip",
+  "DownloadUrl": "https://github.com/tommowx/turbostick-releases/releases/download/v0.19.0/TurboStick-0.19.0-osx-arm64.zip",
+  "Size": 44580092,
+  "Sha256": "78acde91bdb09de7eeeaf3c8a5c4e59312181ab8b6ec1f9dc917640984af1ad4",
+  "PublishedUtc": "2026-10-14T17:53:47.1727796Z",
+  "ExpiresUtc": "2027-01-07T17:53:47.1727796Z",
+  "Signature": "WSnIHitrHXMSFCONF3icRSTObFAMCoUX4EXuqhLQqly3aRW3dzPXmtqTa2MDY04PM2KE0XfVDSk9tmsDtEupZiJTDfJqCxEx7sOt1wCirfnlxxXydjEA2Pk95+3iocea540Z8PzznvmUFICFTjZoWBlbF4yCkrRmRW/aB8L4XzFZ4jPrQf4yjTopMjogj2nf0zr3n9enY8PekDd26KFBe6XRL1VSBevW7ao8fqKWmQ4usV7ZSxZwVaNONgVfRV2bsE3xVA/IastCYPtzphNXi+mZqEx+pQ1mtLQH+njj89gTIMAjhm8x3WRggaK1e3B/wN5wpwZH37EUc+LzUIS15dp0a7kBqtsMgc0wZr5BP4/uDnS5fQKbfZ1O9tYL8aKpmRb2U/qn5mqvjEky5NdMmvZv1H5/LpBsvKp78Gl7o9LrDZH9uhmBaMAqBhcFe0qFIxG+ceJaqYLhDp+zZqBdXR7pXkZjbGAQfme6Hfo6jZ+GW90irzZVOo8MAarxsxu/"
+}
