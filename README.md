@@ -1,4 +1,17 @@
 # TurboStick
+
+## [↓ Scarica TurboStick](https://tommowx.github.io/turbostick-releases/)
+
+Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
+
+**Windows:** stabile 0.18.1. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+
+I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+<details>
+<summary>Istruzioni, funzionalità e report</summary>
+
+# TurboStick
 ### Un alleato dentro il tuo PC.
 
 **La tua cabina per monitoraggio, prestazioni e diagnosi locale su Windows.**
@@ -146,3 +159,6 @@ La firma dei pacchetti viene verificata dall'app; non è una firma Authenticode 
 
 
 
+
+
+</details>
