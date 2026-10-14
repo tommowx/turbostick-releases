@@ -4,9 +4,15 @@
 
 Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
 
-**Windows:** stabile 0.18.1. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+**Windows:** stabile 0.19.1. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
 
 I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+## Nuova interfaccia e chat Tiko · 0.19.1
+
+Una sola conversazione, scrittura in basso e indicatore di analisi. Pulsanti centrati, Tweaks in righe leggibili, colori e finestre uniformati.
+
+[Report e verifiche](windows/REPORT-0.19.1.md) · [Release](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.1)
 
 <details>
 <summary>Istruzioni, funzionalità e report</summary>
