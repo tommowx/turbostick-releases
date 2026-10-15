@@ -4,9 +4,15 @@
 
 Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
 
-**Windows:** stabile 0.19.1. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+**Windows:** stabile 0.19.2. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
 
 I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+## Aggiornamenti e recupero più affidabili · 0.19.2
+
+Conferme di avvio atomiche, pulizia del backup rinviata senza annullare un aggiornamento riuscito, salvataggi concorrenti e recupero delle preferenze. **1.424 controlli**, prove native anche con il vecchio updater e sorgenti ricompilati. Verifiche sul PC di sviluppo: affidabilità rafforzata, nessun 10/10 universale o guadagno FPS dichiarato.
+
+[Report e verifiche](windows/REPORT-0.19.2.md) · [Release](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.2)
 
 ## Nuova interfaccia e chat Tiko · 0.19.1
 
