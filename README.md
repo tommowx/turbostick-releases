@@ -4,9 +4,15 @@
 
 Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
 
-**Windows:** stabile 0.19.3. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+**Windows:** stabile 0.19.4. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
 
 I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+## Tiko e AI locale · 0.19.4
+
+Tiko può collegarsi a un modello già caricato in LM Studio sullo stesso PC. Collegamento opzionale, memoria breve della chat e ritorno al tecnico a regole se il modello non è disponibile o il PC è impegnato. Nuove letture facoltative audio, schermo e batteria. Nessun comando eseguito dall’AI.
+
+[Report e verifiche](windows/REPORT-0.19.4.md) · [Release](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.4)
 
 ## Tiko ti guida un passo alla volta · 0.19.3
 
