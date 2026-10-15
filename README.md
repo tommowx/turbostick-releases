@@ -4,9 +4,15 @@
 
 Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
 
-**Windows:** stabile 0.19.2. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+**Windows:** stabile 0.19.3. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
 
 I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+## Tiko ti guida un passo alla volta · 0.19.3
+
+Domande di chiarimento, percorsi per nove argomenti, un controllo alla volta e contesto conservato. Migliorati annullamento, negazioni, dati recenti, salvataggio e ripresa storica. **1.627 controlli del motore**, 41 verifiche della conversazione nella UI e regressioni superate. Resta un tecnico offline a regole: comprensione e sensori limitati, nessun 10/10 o guadagno FPS dichiarato.
+
+[Report e verifiche](windows/REPORT-0.19.3.md) · [Release](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.3)
 
 ## Aggiornamenti e recupero più affidabili · 0.19.2
 
