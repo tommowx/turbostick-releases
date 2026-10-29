@@ -4,9 +4,15 @@
 
 Un solo punto di download: la pagina riconosce Windows o Mac e propone un solo pacchetto. Su Mac scegli il processore indicato in «Informazioni su questo Mac».
 
-**Windows:** stabile 0.19.4. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
+**Windows:** stabile 0.19.5. **Mac:** beta 0.19.0 di diagnostica, con aggiornamenti separati e ottimizzazioni complete ancora in sviluppo. Non sono ancora la stessa versione funzionale.
 
 I file delle release sono disponibili per gli aggiornamenti automatici. Le versioni precedenti restano nell’archivio per compatibilità; per scaricare usa sempre il pulsante qui sopra.
+
+## Tweaks gaming e memoria sotto pressione · 0.19.5
+
+Griglia scura con accenti viola, undici controlli reali e profilo gaming prudente. Nuova priorità memoria per massimo due app Sfondo sotto pressione RAM, con esclusioni e ripristino. Inclusa Silenziosa fuori dai giochi. GPU/HAGS aprono controlli guidati Windows; nessun guadagno FPS misurato o promessa di 1000 FPS.
+
+[Report completo](windows/REPORT-0.19.5.md) · [Release e sorgenti](https://github.com/tommowx/turbostick-releases/releases/tag/v0.19.5)
 
 ## Tiko e AI locale · 0.19.4
 
